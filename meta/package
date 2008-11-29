@@ -1,0 +1,13 @@
+pkgname    : ~
+platform   : ~  # ruby, current, both
+
+distribute : ~
+exclude    : [ site, temp, doc ]
+
+require    : ~
+recommend  : ~
+suggest    : ~
+provide    : ~
+replace    : ~
+conflict   : ~
+

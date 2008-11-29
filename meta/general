@@ -1,0 +1,37 @@
+--- %YAML:1.0
+name      : oni
+title     : ONI
+subtitle  : ~
+brief     : Object Network Interface
+author    : Trans <transfire@gmail.com>
+homepage  : 'http://tigerops.rubyforge.org/oni'
+copyright : (c) 2002, 2008 Tiger Ops 
+created   : 2002-12-25
+license   : GPLv3
+slogan    : ~
+category  : ~
+contact   : ~         # If different than author
+email     : ~         # If not part of contact
+domain    : ~         # Domain associated with this project
+master    : ~         # If subproject
+
+sitemap:
+  homepage    : ~     # Same as toplevel homepage.
+  development : ~
+  download    : ~
+  wiki        : ~
+  documents   : ~
+  forum       : ~
+  tickets     : ~
+
+mailing_lists:
+  user      : ~        # End-users mailing list.
+  developer : ~        # Developers mailing list (if different than user).
+  automated : ~        # Automation tools report list (if different than developer).
+
+loadpath   : ~           # Default is 'lib/'
+autoload   : ~           # Default file to load (used by Rolls)
+
+#binpath
+#libpath
+

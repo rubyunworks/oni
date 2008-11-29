@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="layout.xsl" type="text/xsl" ?>
+
+<content>
+
+<h1>Object Network Interface</h1>
+
+<p class="intro">ONI is a distributed object and remote procedure
+call system implemented using YAML on top of TCP/IP or HTTP.</p>
+
+<p>YAML is quite suitable for the serialization of objects
+required by remote object access protocols. The simplicity of
+the protocal makes short work of setup and is one of the primary
+benefits that ONI has over other systes such as SOAP and XML-RPC.</p>
+
+<p>ONI only works with Ruby, but it should be easy enough to 
+generalize to other languages that support YAML. It is also
+very alpha, but nonetheless it has been put to work
+under more realistic conditions and it looks promising.</p>
+
+
+<h1>News</h1>
+
+<h3 class="date">2008-02-22</h3>
+
+<h2>Initial Release</h2>
+
+<p>ONI has sitting around my harddirve for years now, comllecting digital dust.
+When I first put it together I was hevily into learning YAML and it seemed 
+like one fo the natural places to put YAML to good use. However, YAML has yet
+to really catch fire, JSON seems to have stolen most of it's glory. And though
+YAML is fairly popular among RUby circles, Ruby already has <code>drb</code>,
+so it's not like there was a pressing need for a YAML based alternative. So
+ONI never matured past the initial prototype implementation.
+</p>
+
+<p>REgardless I recently decided that it was foolish not to at least "put it out there".
+Perhaps someone else will come across it and have the inspiration to take it to 
+the next production ready level.</p>
+
+
+<h1>Installation</h1>
+
+<p>Via RubyGems:</p>
+
+<pre><code>
+  $ gem install oni
+</code></pre>
+
+<p>With the source code:</p>
+
+<pre><code>
+  $ tar -xzf oni-x.y.z.tar.gz
+  $ cd oni-x.y.z
+  $ ruby setup.rb
+</code></pre>
+
+<p>Linux/Unix users might need to use <code>sudo ruby setup.rb</code>.</p>
+
+
+<h1>Usage</h1>
+
+<p>For detailed usage documentation, please refer to the <a href="rdoc/index.html">RDocs</a>.</p>
+
+
+<h1>Development</h1>
+
+<p>ONI is hosted by Rubyforge at <a href="http://rubyforge.org/projects/oni">http://rubyforge.org/projects/oni</a>.</p>
+
+<h2>Anonymous Subversion Access</h2>
+
+<p>This project's SVN repository can be checked out through anonymous access with the following command(s).</p>
+
+<pre>
+  svn checkout svn://rubyforge.org/var/svn/proutils/oni
+  svn checkout http://proutils.rubyforge.org/svn/oni
+</pre>
+
+<h2>Developer Subversion Access via SSH</h2>
+
+<p>Only project developers can access the SVN tree via this method. SSH must be installed on your client machine. Substitute developername with the proper values. Enter your site password when prompted.</p>
+
+<pre>
+  svn checkout svn+ssh://developername@rubyforge.org/var/svn/proutils/oni
+</pre>
+
+
+<h1>Special Thanks</h1>
+
+<p>Big thanks goes to the Three Yamlos, of course: Oren, Clark, and Igny.</p>
+
+
+<h1>License</h1>
+
+<p>ONI, Copyright &#x00A9; 2008 <a href="http://proutils.tigerops.org">Tiger Ops</a></p>
+
+<p>This program is free software: you can redistribute it and/or modify
+it under the terms of the MIT or Ruby License.</p>
+
+<p>This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p>
+
+</content>
+

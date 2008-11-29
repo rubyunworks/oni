@@ -1,0 +1,11 @@
+---
+
+rubyforge:
+  type   : rubyforge
+  project: tigerops
+  package: oni
+
+rubytalk:
+  type  : mailinglist
+  email : ruby-talk@ruby-lang.org
+

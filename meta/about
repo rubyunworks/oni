@@ -1,0 +1,2 @@
+ONI is similar to drb, but uses YAML as
+the serialization protocol.

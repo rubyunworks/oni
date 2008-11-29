@@ -1,0 +1,177 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background: white;
+  font-size: 9pt;
+  font-family: microsoft sans-serif, sans-serif, helvetica;
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 2.5em;
+}
+
+h1.top {
+  margin-top: -10px;
+}
+
+h2 {
+  margin-top: 25px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 15pt;
+  text-align: justify;
+}
+
+ul {
+  line-height: 16pt;
+}
+
+img {
+  border: none;
+}
+
+pre {
+  padding: 5px 10px 20px 10px;
+  font-size: 0.9em;
+  background-color: #f1f1f1;
+  color: #FF0055;
+  font-weight: bold;
+}
+
+a { text-decoration: none; color: #CC0000; }
+a:hover { text-decoration: underline; }
+
+pre.script { background-color: #DDFFDD; color: black; }
+
+.container {
+  margin: 0 auto;
+  width: 910px;
+}
+
+.text {
+  float: left;
+  border: 0px solid #bbb000;
+  width: 700px;
+  padding-right: 20px;
+}
+
+.banner {
+  /*
+    padding: 36px 0px 36px 20px;
+    background: url(img/ratch2.png) 300px -10px no-repeat #666666;
+  */
+  background: url(img/ruby-blur.png) -50px -300px no-repeat red;
+  margin-top: 1px;
+  padding: 25px;
+  padding-right: 230px;
+  height: 120px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  padding-left: 15px;
+  font: bold 64pt sans-serif;
+  color: white;
+  letter-spacing: 7pt;
+}
+
+.subtitle {
+  font-size: 10pt;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.menu {
+  background: url(img/menu_bkg.png) repeat-x white;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 220px;
+  padding-left: 20px;
+  line-height: 32px;
+  color: #CC1133;
+}
+
+.menu a {
+  color: #eeeeee;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.menu a:hover {
+  color: #fffffe;
+  text-decoration: underline;
+}
+
+.ad {
+  float: left;
+  width: 166px;
+  height: 606px;
+  padding: 10px;
+  text-align: left;
+  /* background: #ffeeee; */
+  padding-top: 10px;
+  border-top: 2px solid #eeeeee;
+}
+
+.adframe {
+  width: 162px;
+  height: 602px;
+  padding: 0;
+}
+
+.content {
+  padding: 10px 5px 20px 5px;
+  text-align: left;
+  background: white;
+}
+
+.intro {
+  font-weight: normal;
+  font-size: 1.4em;
+}
+
+.date {
+  float:right; color:gray; margin: 0;
+}
+
+.copyright {
+  height: 72px;
+  text-align: left;
+  color: white;
+  margin: 15px auto;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 30px;
+  background: url(img/ruby-blur.png) bottom right no-repeat white;
+}
+
+.copyright a {
+  color: pink;
+}
+
+.important {
+  color: red;
+}
+
+.tiger {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.rev {
+  font-size: 10pt;
+  padding-left: 15px;
+}
+
+p.top {
+  font-weight: bold;
+}

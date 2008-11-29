@@ -1,0 +1,62 @@
+= ONI <%= version %>
+
+Object Network Interface
+
+== Introduction
+
+ONI is a RPC system implemented using AML on top of TCP/IP.
+In the furture we may implement YAML n top of HTTP.
+YAML is quite suitable for the serialization of objects
+required by remote object access protocols, making short
+work of this, it is the primary benefit that ONI has
+over SOAP and XML-RPC.
+
+== Installation
+
+To install simply unpack the gzipped tarball into your local
+site_ruby path. This path is usually +/usr/local/lib/site_ruby/1.6/+.
+An install script is not currently provided.
+
+== Current Limitations
+
+Currently ONI only works with Ruby, but it should be easy enough to 
+generalize in the near future. It is also very alpha, but nonetheless
+I have put it to work under more realistic conditions and it looks promising.
+
+== Note
+
+I recently upgraded to Ruby 1.7 and Yaml 0.40. Upon testing ONI in this
+enviornment execution speed fell to a abnormal low. Something's wrong, but
+I'm not yet sure where the problem lies. Please let me know how it runs
+on your system.
+
+== Requirements
+
+Ruby 1.8+
+
+== Usage
+
+For now, please refer to the example scripts, and rdocs.
+
+== Authentication
+
+Package:: ONI
+Author:: Thomas Sawyer
+License:: Copyright (c) 2002 Thomas Sawyer, LGPL
+
+== Copy Notice
+
+ONI is free software; you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+ONI is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with ONI; if not, write to the Free Software Foundation, Inc.,
+59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+

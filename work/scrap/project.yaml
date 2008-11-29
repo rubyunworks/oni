@@ -1,0 +1,23 @@
+--- %YAML:1.0
+
+name      : oni
+version   : '0.2'
+status    : beta
+date      : 2008-04-07
+
+title     : ONI
+summary   : Object Network Interface
+author    : Trans <transfire@gmail.com>
+homepage  : "http://tigerops.rubyforge.org/oni"
+copyright : (c) 2002, 2008 Tiger Ops 
+created   : 2002-12-25
+
+description: >
+  ONI is similair to drb, but uses YAML as
+  the serialization protocal.
+
+hosts:
+  rubyforge:
+    project: tigerops
+    package: oni
+
