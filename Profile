@@ -1,0 +1,16 @@
+--- 
+title     : ONI
+summary   : Object Network Interface
+contact   : Trans <transfire@gmail.com>
+authors   : Trans <transfire@gmail.com>
+created   : 2002-12-25
+license   : Apache 2.0
+copyright : (c) 2002 Thomas Sawyer
+
+requires:
+  - syckle (build)
+
+resources:
+  home: http://rubyworks.github.com/oni
+  code: http://github.com/rubyworks/oni
+

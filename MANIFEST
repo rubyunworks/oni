@@ -1,0 +1,11 @@
+#!mast -x Syckfile -x Profile .ruby bin lib man spec test [A-Z]*
+.ruby
+lib/oni/class.rb
+lib/oni/oni.rb
+lib/oni/peer.rb
+lib/oni/remote.rb
+lib/oni.rb
+NOTES
+CHANGES
+README
+COPYING
